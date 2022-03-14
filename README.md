@@ -87,5 +87,5 @@ unclear aspects of the documentation.
 
 - What to do when the client does not have the available amount for a disputed transaction? (currently the dispute is ignored)
 - Is dispute allowed on a locked client? Currently, it is prohibited.
-- In a dispute, does the client id in the dispute/withdrawal/chargeback has to be the same as in the referenced transaction?
+- Does the Client ID in the dispute/withdrawal/chargeback has to be the same as in the referenced transaction?
 Currently, yes, and if not, the transaction is ignored.
