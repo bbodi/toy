@@ -1,0 +1,17 @@
+[package]
+name = "task"
+version = "0.1.0"
+edition = "2021"
+default-run = "transactions"
+
+[lib]
+name = "transactions_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "transactions"
+path = "src/bin/main.rs"
+
+[dependencies]
+csv = "1.1.6"
+rustc-hash = "1.1.0"
