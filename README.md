@@ -66,7 +66,7 @@ It is useful if the tests are readable, so non-technical managers/product owners
 ## Output csv
 In order to be able to verify the output easily in the integration tests, the output is sorted by the Client IDs.
 
-Sorting has some unnecessary performance penalty since sorting takes time, and it was not a requirement.  
+Sorting has some unnecessary performance penalty since it takes time, and it was not a requirement.  
 In a real world scenario with more time, I would implement a more sophisticated test
 utility which does not have assumption about output ordering, and then the sorting could be removed.
 
